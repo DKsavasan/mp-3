@@ -14,6 +14,7 @@ import Education from "./components/education";
 import Experiences from "./components/experiences";
 import Leadership from "./components/leadership";
 import Projects from "./components/projects";
+import Credits from "./components/credits";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -25,7 +26,6 @@ const GlobalStyle = createGlobalStyle`
   body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     font-family: Arial, sans-serif;
     flex: 1;
   }
@@ -68,10 +68,7 @@ const Root = () => {
             <Route path="/experiences" element={<Experiences />} />
             <Route path="/leadership" element={<Leadership />} />
             <Route path="/projects" element={<Projects />} />
-            {/* Add other routes as needed */}
-            {/* <Route path="/education" element={<Education />} /> */}
-            {/* <Route path="/experiences" element={<Experiences />} /> */}
-            {/* ... */}
+            <Route path="/credits" element={<Credits />} />
           </Routes>
         </Main>
       </Layout>

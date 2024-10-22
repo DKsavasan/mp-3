@@ -16,7 +16,8 @@ const Footer: React.FC = () => {
   return (
     <FooterContainer>
       <p>
-        All Rights Reserved by Doruk Savasan <a href="#">Credits</a> &#169;
+        All Rights Reserved by Doruk Savasan <a href="/credits">Credits</a>{" "}
+        &#169;
       </p>
     </FooterContainer>
   );
