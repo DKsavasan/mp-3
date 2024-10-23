@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
@@ -16,7 +17,7 @@ const Footer: React.FC = () => {
   return (
     <FooterContainer>
       <p>
-        All Rights Reserved by Doruk Savasan <a href="/credits">Credits</a>{" "}
+        All Rights Reserved by Doruk Savasan <Link to="/credits">Credits</Link>{" "}
         &#169;
       </p>
     </FooterContainer>
